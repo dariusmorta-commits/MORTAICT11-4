@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MortaGARAHE</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #000;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      background: linear-gradient(90deg, #000, #000);
+      padding: 30px 15px;
+    }
+
+    header h1 {
+      margin: 0;
+      color: red;
+      font-size: 28px;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      color: #bbb;
+      margin: 10px 0 0;
+    }
+
+    .search-box {
+      margin: 20px auto;
+      max-width: 300px;
+    }
+
+    .search-box input {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 2px solid white;
+      background-color: #111;
+      color: white;
+      outline: none;
+    }
+
+    /* Carousel Section */
+    .carousel {
+      display: flex;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .carousel::-webkit-scrollbar {
+      display: none;
+    }
+
+    .product {
+      flex: 0 0 auto;
+      background-color: #111;
+      border-radius: 10px;
+      width: 250px;
+      box-shadow: 0 0 10px rgba(111,111,111,0.1);
+      padding: 15px;
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .product h2 {
+      font-size: 18px;
+      color: white;
+      margin: 10px 0 5px;
+    }
+
+    .product p {
+      color: #ccc;
+      font-size: 14px;
+      margin: 5px 0;
+    }
+
+    .price {
+      color: white;
+      font-weight: bold;
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+    .buy-btn {
+      background-color: white;
+      color: black;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .buy-btn:hover {
+      background-color: black;
+    }
+
+    footer {
+      padding: 20px;
+      font-size: 14px;
+      color: #888;
+      border-top: 1px solid #222;
+      margin-top: 30px;
+    }
+
+    /* Swipe hints */
+    .hint {
+      color: #888;
+      font-size: 14px;
+      margin-bottom: -10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MortaGARAHE</h1>
+    <p>play a GIRL not a CARS🏎️</p>
+  </header>
+
+  <div class="search-box">
+    <input type="text" placeholder="Search diecast cars...">
+  </div>
+
+  <p class="hint"></p></p>
+
+  <div class="carousel">
+
+    <div class="product">
+      <img src="/img/images (3).jpeg">
+      <h2>Nissan GT-R r35</h2>
+      <p>hotweeld</p>
+      <div class="price">₱69.00</div>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+
+    <div class="product">
+      <img src="/img/Hot-Wheels-1.64-Car-Then-and-Now-20-Dodge-Charger-Hellcat.jpg">
+      <h2>Dodge Charger R/T</h2>
+      <p>hotwheels</p>
+      <div class="price">₱69.00</div>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+
+    <div class="product">
+      <img src="/img/HW-FYG07_front_41cbaf02-a689-4a25-8211-a2125fc48339_1200x1200.jpg">
+      <h2>Lamborghini Aventador</h2>
+      <p>hotwheels</p>
+      <div class="price">₱69.00</div>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+
+    <div class="product">
+      <img src="/S2bde98f80fb646e79a3f74c618747796v.jpg" alt="Mustang GT">
+      <h2>Ford Mustang GT</h2>
+      <p>hotwheels</p>
+      <div class="price">₱69.00</div>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+
+  </div>
+
+  <footer>
+    <a
+    href="https://www.instagram.com/dkkyll?igsh=MXdxbTQ3eWxweWJucw==">visit this link if you want to buy real hotwheels</a>
+      
+    </a>
+  </footer>
+
+</body>
+</html>
